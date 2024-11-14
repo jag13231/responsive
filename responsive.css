@@ -1,0 +1,597 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: grid;
+    place-items: center;
+    font-family: "Roboto", sans-serif;
+}
+.main{
+    width: 360px;
+    height: 828px;
+    border:  1px solid black;
+}
+.header_container{
+    width: 100%;
+    height: 56px;
+    display: flex;
+}
+.nav_bar{
+    width: 29%;
+    height: 100%;
+}
+.brand_logo{
+    width: 74px;
+    height:20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    font-weight: 700;
+    margin-top: 18px;
+    margin-left: 24px;
+}
+.brand_logo i{
+    font-size: 15px;
+    font-weight: 700;
+}
+.section_container{
+    display: none;
+}
+.display_image_container{
+    width: 258px;
+    height: 430px;
+    text-align: end;
+    background: #FFB568;
+}
+.Moon{
+    margin-top:18px;
+    margin-left: 18px;
+}
+.Bag{
+    margin-right: 18px;
+    margin-left: 18px;
+}
+.display_image_container img{
+    width: 240px;
+    height: 320px;
+    margin-top: 24px;
+    margin-left: 9px;
+}
+.new_watch_collection{
+    width: 312px;
+    height: 322px;
+    margin-top: 418px;
+    margin-left: 24px;
+}
+.New_collection{
+    width: 294px;
+    height: 90px;
+    align-content: center;
+    font-size: 30px;
+    font-weight: 700;
+    color: #2E2E2E;
+}
+.new_watch_collection p{
+    font-size: 15px;
+    font-weight: 400;
+    color:#595959;
+    margin-top: 24px;
+
+}
+.PRice{
+    width: 61px;
+    height: 23px;
+    text-align: center;
+    margin-top: 24px;
+    font-size: 20px;
+    font-weight: 500;
+    color: #FFB568;
+}
+.add_to_cart{
+    width: 265px;
+    height: 58px;
+    margin-top: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Btn1{
+    width: 107px;
+    height: 50px;
+    background: #BFBFBF;
+    color: black;
+    border: none;
+
+}
+.Btn2{
+ width: 158px;
+ height: 58px;
+ background: #2B2B2B;
+ color: white;
+ border: none;
+}
+.main_2{
+    width: 360px;
+    height: 1434px;
+    border: 1px solid red;
+}
+.featured{
+    width: 83px;
+    height: 35px;
+    margin-left:135px;
+    margin-top: 24px;
+    font-size: 16px;
+    font-weight: 500;
+}
+.watch_main_container{
+    width: 100%;
+    height: 1320px;
+    
+}
+.collectionsss{
+    width:312px;
+    height: 440px;
+    margin-left: 24px;
+}
+.sale_badge{
+    width: 63px;
+    height: 31px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 24px;
+    background: #FFB568;
+    transform: rotate(-90deg);
+}
+.badge{
+    width: 33px;
+    height: 15px;
+    font-size: 13px;
+    font-weight: 500;
+    color: white;
+    text-align: center;
+}
+.watch_image_container{
+    width: 140px;
+    height: 214.55px;
+    margin-top: 32px;
+    margin-left: 86px;
+}
+.img_of_watch{
+    width: 100%;
+    height: 100%;
+}
+.desc_watch{
+    width: 109px;
+    height: 50px;
+    text-align: center;
+    margin-top: 16.45px;
+    margin-left: 101px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #2E2E2E;
+}
+.desc_watch h5{
+    color: #FFB568;
+    font-size: 16px;
+    margin-top:12px;
+    font-weight: 700;
+}
+.aDD_to_cart{
+    width: 146px;
+    height: 55px;
+    margin-top: 12px;
+    margin-left: 83px;
+}
+.aDD_to_cart button{
+    width: 100%;
+    height: 100%;
+    border: none;
+    background: #2B2B2B;
+    color: white;
+}
+.main_3{
+    width: 360px;
+    height: 737px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column-reverse;
+    border: 1px solid blue;
+}
+.our_story_container{
+    width: 312px;
+    height: 297px;
+    margin-left: 24px;
+}
+.yy{
+    width: 92px;
+    height: 35px;
+    text-align: center;  
+    align-content: center;
+    color: black;
+    font-weight: 500;
+
+}
+.yy h3{
+font-size: 15px; 
+font-weight:700;
+color: black;
+}
+
+.inspiration{
+    width: 242px;
+    height: 56px;
+    font-size: 24px;
+    font-weight: 500;
+    color: #2E2E2E;
+    margin-top: 20px;
+}
+.our_story_container p{
+    font-size: 15px;
+    font-weight: 400px;
+    color: #595959;
+    margin-top: 15px
+}
+.our_story_container button{
+    width:107px;
+    height: 50px;
+    background: #2B2B2B;
+    color: white;
+    border: none;
+    margin-top: 10px;
+}
+.Watch_design_container{
+    width: 298px;
+    height: 298px;
+    margin-left: 24px;
+}
+.Watch_design_container_1{
+    width: 250px;
+    height: 250px;
+    margin-top:45px;
+    position: relative;
+    background: #FFB568;
+}
+.Watch_design_container_2{
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    background: #2B2B2B;
+    top: -45px;
+    left: 45px;
+}
+.Watch_design_container_2 img{
+    width: 100%;
+    height: 100%;
+}
+.main_4{
+    width:360px;
+    height: 737px;
+    display: flex;
+    border:  1px solid black;
+}
+.products_display{
+    width:144px;
+    height:800px;
+    margin-top: 48px;
+    margin-left: 24px;
+}
+.dude{
+    display: none;
+}
+.product_01{
+    width: 100%;
+    height: 218px;
+}
+.product_01 img{
+width:75px;
+height: 121.69px;
+margin-top: 11px;
+margin-left: 35px;
+margin-right: 34px
+}
+.product_01_price{
+    width: 75px;
+    height: 39px;
+    margin-left: 34px;
+    margin-top:12px;
+    font-size: 12px;
+    font-weight: 500;
+    text-align: center;
+}
+.product_01_price h4{
+    font-size: 14px;
+    font-weight: 500;
+    color: #FFB568;
+    margin-top: 8px;
+}
+.product_01 button{
+    width: 28px;
+    height: 28px;
+    background: #2B2B2B;
+    margin-left:114px;
+    color: #ffffff;
+}
+.products_display_02{
+    width:144px;
+    height:800px;
+    margin-top: 48px;
+    margin-left: 24px;
+}
+.main_5{
+    width: 360px;
+    height: 861px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border:  1px solid black;
+    
+}
+.our_story_containers{
+    width: 312px;
+    height: 307px;
+    margin-left: 24px;
+}
+.our_story{
+    width: 48px;
+    height: 40px;
+    margin-top: 0;
+    margin-left: 0;
+    color: #FFB568;
+    
+}
+.our_story_containers p{
+    font-size: 15px;
+    font-weight: 400;
+    color: #595959;
+}
+.our_story_containers h5{
+    margin-top: 20px;
+}
+.leo{
+    width: 204px;
+    height: 60px;
+    margin-top: 32px;
+    display: flex;
+    align-items: center;
+
+}
+.leo_img{
+    width: 60px;
+    height: 60px;
+    
+}
+.leo_img img{
+    width: 100%;
+    height: 100%;
+}
+.leo_bio{
+    width: 128px;
+    height: 42px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.Watch_design_containers{
+    width: 298px;
+    height: 298px;
+    margin-left: 24px;
+    
+}
+.Watch_design_container_1-1{
+    width: 250px;
+    height: 250px;
+    margin-left: 45px;
+    position: relative;
+    background: #FFB568;
+}
+.Watch_design_container_2-2{
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    background: #2B2B2B;
+    top: 45px;
+    right: 45px;
+    
+}
+.Watch_design_container_2-2 img{
+    width: 100%;
+    height: 100%;
+}
+.main_6{
+    width:360px;
+    height: 534px;
+    border:  1px solid black;
+    
+}
+.pdt1{
+    display: none;
+}
+
+.new_arrival{
+    width: 122px;
+    height: 35px;
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 64px;
+    margin-left:119px ;
+    align-content: end;
+    text-align: center;
+    
+}
+.product_03{
+    width: 312px;
+    height: 371px;
+    margin-top: 48px;
+    margin-left:24px;
+    
+}
+.new{
+    width: 61px;
+    height: 31px;
+    margin-top:16px;
+    margin-left:235px;
+    text-align: center;
+    align-content: center;
+    background: #FFB568;
+    color: #ffffff;
+}
+.product_03 img{
+    width: 130px;
+    height: 224.57px;
+    margin-top: 32px;
+    margin-left:91px;
+}
+.ss{
+    width: 129px;
+    height: 50px;
+    margin-top: 16.43px;
+    margin-left:91px;
+    font-size: 16px;
+    font-weight: 700;
+}
+.ss h4{
+    font-size: 16px;
+    font-weight: 700;
+    color: #FFB568;
+}
+.main_7{
+    width: 360px;
+    height: 508px;
+    border:  1px solid black;
+}
+.mail_container{
+    width: 312px;
+    height: 428px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background: #FFB568;
+    margin-top: 48px;
+    margin-left: 24px;
+}
+.Subscribe{
+    width: 264px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-left: 24px;
+    
+}
+.Subscribe h1{
+    font-size: 24px;
+    font-weight: 500;
+    text-align: center;
+}
+.Subscribe p{
+    font-size: 15px;
+    font-weight: 400;
+    color: #595959;
+    text-align: center;
+}
+.send{
+    width:264px;
+    height: 128px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-left: 24px;
+    
+}
+.send input{
+    width: 100%;
+    height:58px;
+    border: none;
+    text-align: center;
+}
+.send button{
+    width: 100%;
+    height:58px;
+    border: none;
+    background: #2B2B2B;
+    color: white;
+}
+.main_8{
+    width: 360px;
+    height: 772px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border:  1px solid black;
+
+}
+.our_information{
+    width: 153px;
+    height: 121px;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 4%;
+    margin-left: 24px;
+}
+.ourinfo{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    
+}
+.ourinfo a{
+    font-size: 15px;
+    font-weight: 400;
+    text-decoration: none;
+    color: #595959;
+}
+.about_us{
+    width: 153px;
+    height: 121px;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 4%;
+    margin-left: 24px;
+}
+.aboutus{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    
+}
+.aboutus a{
+    font-size: 15px;
+    font-weight: 400;
+    text-decoration: none;
+    color: #595959;
+}
+.prdct{
+    width: 153px;
+    height: 121px;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 4%;
+    margin-left: 24px;
+}
+.social{
+    width: 92px;
+    height: 63px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+     font-size: 20px;
+     font-weight: 500;
+     letter-spacing: 4%;
+     margin-left: 24px;
+}
+.social_icons{
+    width: 100%;
+    height: 20px;
+    display: flex;
+    justify-content: space-between;
+} */

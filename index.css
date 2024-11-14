@@ -1,0 +1,1240 @@
+ @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Sora:wght@100..800&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Roboto", sans-serif;
+    display: grid;
+    place-items: center;
+}
+.main{
+    width: 1280px;
+    height: 712px;
+}
+.header_container{
+    width: 100%;
+    height: 72px;
+    display:flex;
+}
+.nav_bar{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-content: center;
+}
+.brand_logo{
+    width: 76px;
+    height: 20px;
+    margin-top: 26px;
+    margin-left: 128px;
+    font-size: 16px;
+    font-weight: 700;
+}
+.section_container{
+    width: 312px;
+    height: 18px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 62px;
+    margin-top: 27px;
+}
+.section_container a{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    font-weight: 500;
+}
+.display_image_container{
+    width: 480px;
+    height: 680px;
+    text-align: right;
+    background: #FFB568;
+}
+.display_image_container i{
+    margin-top: 26px;
+    font-size: 20px;
+}
+.Moon{
+    margin-right:16px ;
+}
+.Bag{
+    margin-right: 16px;
+}
+.display_image_container img{
+    width: 420px;
+    height: 560px;
+    margin-top: 96px;
+    margin-right: 30px;
+}
+
+.new_watch_collection{
+    width: 367px;
+    height: 331px;
+    margin-left: 216px;
+    margin-top: 122px;
+    margin-bottom: 187px;
+}
+.New_collection{
+    width: 100%;
+    height: 112px;
+    font-size: 39px;
+    font-weight: 700;
+    text-align: left;
+    align-content: center;
+}
+.new_watch_collection p{
+    margin-top: 16px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #595959;
+
+}
+.PRice{
+    width: 69px;
+    height: 28px;
+    font-size: 24px;
+    font-weight: 500;
+    color: #FFB568;
+    margin-top: 24px;
+    text-align: center;
+}
+.add_to_cart{
+    width: 272px;
+    height: 59px;
+    margin-top: 48px;
+    display: flex;
+    align-items: center;
+}
+.Btn1{
+    width: 111px;
+    height: 51px;
+    background: #BFBFBF;
+    color: black;
+    border: none;
+
+}
+.Btn2{
+    width: 165px;
+    height: 59px;
+    background: #2B2B2B;
+    color: white;
+    border: none;
+}
+
+.main_2{
+   width: 1280px;
+   height: 664px;
+
+
+}
+.featured{
+    width: 103px;
+    height: 23px;
+    text-align: center;
+    margin-top: 88px;
+    margin-left: 589px;
+
+}
+.featured h2{
+    font-size: 20px;
+    font-weight: 500;
+}
+.watch_main_container{
+    width: 100%;
+    height: 441px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 64px;
+
+}
+.collectionsss{
+    width: 312px;
+    height: 100%;
+
+}
+.sale_badge{
+    width: 66px;
+    height: 32px;
+    display: flex;
+    margin-top: 26px;
+    margin-left: 0;
+    background: #FFB568;
+    transform: rotate(-90deg);
+    justify-content: center;
+    align-items: center;
+
+}
+.badge{
+    width: 34px;
+    height: 16px;
+    align-content: center;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 500;
+    color: #FFFFFF;
+
+}
+.watch_image_container{
+    width:140px;
+    height: 214.55px;
+    margin-top: 22px;
+    margin-left: 86px;
+    margin-right: 86px;
+
+}
+.img_of_watch{
+    width: 100%;
+    height: 100%;
+}
+.desc_watch{
+    width: 109px;
+    height: 50px;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size:16px;
+    font-weight: 700;
+    color: #2E2E2E;
+    margin-left: 101px;
+    margin-top: 16.45px;
+
+}
+.desc_watch h5{
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+    color: #FFB568;
+}
+.aDD_to_cart{
+    width: 152px;
+    height: 56px;
+    margin-top: 15px;
+    margin-left: 80px;
+    margin-right: 80px;
+
+
+}
+.aDD_to_cart button{
+    width: 100%;
+    height: 100%;
+    font-size: 14px;
+    font-weight: 500;
+    color: #FFFFFF;
+    border: none;
+    background: #2B2B2B;
+
+ } 
+ .main_3{
+    width: 1280px;
+    height: 682px;
+    display: flex;
+    align-items: center;
+ }
+ .Watch_design_container{
+    width: 530px;
+    height: 530px;
+    display: flex;
+    margin-left: 128px;
+ }
+ .Watch_design_container_1{
+    width: 450px;
+    height: 450px;
+    margin-top: 80px;
+    background: #FFB568;
+ }
+ .Watch_design_container_2{
+    width: 450px;
+    height: 450px;
+    margin-top: -80px;
+    margin-left: 80px;
+    background: black;
+ }
+ .Watch_design_container_2 img{
+    width: 100%;
+    height: 100%;
+ }
+ .our_story_container{
+    width: 382px;
+    height: 335px;
+    margin-left: 112px;
+    margin-right: 128px;
+ }
+ .our_story{
+    width: 113px;
+    height: 39px;
+ }
+ .our_story h3{
+    margin-top: 16px;
+    font-size: 20px;
+    font-weight: 500;
+ }
+ .inspiration{
+    width: 362px;
+    height: 84px;
+    font-size: 36px;
+    margin-top: 40px;
+    font-weight: 500;
+ }
+ .our_story_container p{
+    margin-top: 24px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #595959;
+
+ }
+ .our_story_container button{
+    width: 111px;
+    height: 51px;
+    margin-top: 40px;
+    background: #2B2B2B;
+    color: white;
+ }
+ .main_4{
+    width: 1280px;
+    height: 811px;
+ }
+ .products_display{
+    width: 100%;
+    height: 274px;
+    display: flex;
+    justify-content:center;
+    gap: 40px;
+    margin-top: 64px;
+ }
+ .product_01{
+    width: 200px;
+    height: 100%;
+ }
+ .product_01 img{
+    width: 95px;
+    height: 154.14px;
+    margin-top: 32px;
+    margin-left: 53px;
+ }
+ .product_01_price{
+    width: 81px;
+    height: 40px;
+    margin-top: 10px;
+    margin-left: 60px;
+ }
+ .product_01_price{
+    font-size: 13px;
+    font-weight: 500;
+    color: #2E2E2E;
+    text-align: center;
+
+ }
+ .product_01_price h4{
+    font-size: 14px;
+    margin-top: 8px;
+    font-weight: 500;
+    color: #FFB568;
+    text-align: center;
+
+ }
+ .product_01 button{
+    width: 32px;
+    height: 32px;
+    text-align: center;
+    margin-left: 167px;
+    margin-bottom: 10px;
+    background: #2B2B2B;
+    color: white;
+ }
+
+ .products_display_02{
+    width: 50%;
+    height: 274px;
+    display: flex;
+    margin-left: 300px;
+    gap: 40px;
+    margin-top: 64px;
+ }
+ .main_5{
+    width: 1280px;
+    height: 682px;
+    display: flex;
+    align-items: center;
+ }
+ .Watch_design_containers{
+    width: 530px;
+    height: 530px;
+    display: flex;
+    margin-left: 112px;
+ }
+ .Watch_design_container_1-1{
+    width: 450px;
+    height: 450px;
+    margin-left: 80px;
+    background: #FFB568;
+ }
+ .Watch_design_container_2-2{
+    width: 450px;
+    height: 450px;
+    margin-left:-80px;
+    margin-top: 80px;
+    background: black;
+ }
+ .Watch_design_container_2-2 img{
+    width: 100%;
+    height: 100%;
+ }
+ .our_story h4{
+    color: #FFB568;
+ }
+ .leo{
+    width: 204px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-top: 32px;
+ }
+ .leo_img{
+    width: 60px;
+    height: 100%;
+ }
+ .leo_img img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+ }
+ .leo_bio{
+    width: 128px;
+    height: 42px;
+    font-size: 12px;
+    font-weight: 500;
+ }
+ .leo_bio h6{
+
+    font-size: 12px;
+    font-weight: 400;
+    color: #595959;
+    margin-top: 10px;
+ }
+ .our_story_containers{
+    width: 382px;
+    height: 335px;
+    margin-left: 272px;
+ }
+ .our_story_containers h5{
+    margin-top: 16px;
+ }
+ .main_6{
+    width: 1280px;
+    height: 678px;
+ }
+ .new_arrival{
+    width: 150px;
+    height: 23px;
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 88px;
+    margin-left: 565px;
+    text-align: center;
+ }
+  .product_03{
+    width: 238px;
+    height: 100%;
+ }
+ .product_03 img{
+    width: 95px;
+    height: 154.14px;
+    margin-top: 33px;
+    margin-left: 54px;
+ }
+ .products_displays{
+    width: 100%;
+    height: 446px;
+    display: flex;
+    justify-content:center;
+    gap: 40px;
+    margin-top: 64px;
+ }
+ .new{
+    width: 63px;
+    height: 32px;
+    margin-left: 159px;
+    margin-top: 16px;
+    text-align: center;
+    color: white;
+    align-content: center;
+    background: #FFB568;
+ }
+ .product_03-1{
+    width: 238px;
+    height: 100%;
+    background: #FFB568;
+ }
+ .product_03-1 img{
+    width: 95px;
+    height: 154.14px;
+    margin-top: 32px;
+    margin-left: 80px;
+ }
+ .product_03-1 button{
+    width: 152px;
+    height: 56px;
+    background: #2B2B2B;
+    color: #FFFFFF;
+    border: none;
+    margin-left: 55px;
+    margin-top:24px ;
+ }
+ .product_01_price_3-1{
+    width: 100px;
+    height: 40px;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 80px;
+ }
+ .product_01_price_3-1 h4{
+    margin-top: 10px;
+ }
+ .new-3{
+    width: 63px;
+    height: 32px;
+    margin-left: 159px;
+    margin-top: 16px;
+    text-align: center;
+    color: white;
+    align-content: center;
+    background: black;
+ }
+ .main_7{
+    width: 1280px;
+    height: 435px;
+ }
+ .mail_container{
+    width: 1024px;
+    height: 325px;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    background: #FFB568;
+    margin-top: 72px;
+    margin-left: 128px;
+ }
+ .Subscribe{
+    width: 395px;
+    height: 171px;
+    font-size: 19px;
+ }
+ .Subscribe p{
+    color: #595959;
+    font-size: 15px;
+    font-weight: 500;
+    margin-top: 24px;
+
+ }
+ .send{
+    width: 419px;
+    height: 59px;
+    display: flex;
+ }
+ .send input{
+    width: 264px;
+    height: 100%;
+    border: none;
+    text-align: center;
+ }
+ .send button{
+    width: 155px;
+    height: 100%;
+    background: #2B2B2B;
+    color: #FFFFFF;
+    border: none;
+ }
+ .main_8{
+    width: 1280px;
+    height: 406px;
+    display: flex;
+    align-items: center;
+
+ }
+ .our_information{
+    width: 142px;
+    height: 159px;
+    margin-left: 140px;
+    font-size: 19px;
+    font-weight: 500;
+
+ }
+.ourinfo{
+   width:100%;
+   height: 100px;
+   display: flex;
+   margin-top: 24px;
+   flex-direction: column;
+   justify-content: space-between;
+
+}
+.ourinfo a{
+   text-decoration: none;
+   font-size: 16px;
+   font-weight: 400;
+   color: #595959;
+
+}
+.about_us{
+   width: 131px;
+   height: 159px;
+   margin-left: 175px;
+   font-size: 20px;
+   font-weight: 500;
+
+
+}
+.aboutus a{
+   text-decoration: none;
+   font-size: 15px;
+   font-weight: 400;
+   color: #595959;
+}
+.aboutus{
+   width:100%;
+   height: 100px;
+   display: flex;
+   margin-top: 24px;
+   flex-direction: column;
+   justify-content: space-between;
+
+}
+.prdct{
+   width: 131px;
+   height: 159px;
+   margin-left: 175px;
+   font-size: 20px;
+   font-weight: 500;
+
+}
+ .social{
+   width: 92px;
+   height: 67px;
+   margin-left: 175px;
+
+   font-size: 20px;
+   font-weight: 500;
+ }
+ .social_icons{
+   width: 100%;
+   height: 20px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin-top: 24px;
+
+
+ }
+ @media only screen and (max-width:600px){
+   @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: grid;
+    place-items: center;
+    font-family: "Roboto", sans-serif;
+}
+.main{
+    width: 360px;
+    height: 828px;
+}
+.header_container{
+    width: 100%;
+    height: 56px;
+    display: flex;
+}
+.nav_bar{
+    width: 29%;
+    height: 100%;
+}
+.brand_logo{
+    width: 74px;
+    height:20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    font-weight: 700;
+    margin-top: 18px;
+    margin-left: 24px;
+}
+.brand_logo i{
+    font-size: 15px;
+    font-weight: 700;
+}
+.section_container{
+    display: none;
+}
+.display_image_container{
+    width: 258px;
+    height: 430px;
+    text-align: end;
+    background: #FFB568;
+}
+.Moon{
+    margin-top:18px;
+    margin-left: 18px;
+}
+.Bag{
+    margin-right: 18px;
+    margin-left: 18px;
+}
+.display_image_container img{
+    width: 240px;
+    height: 320px;
+    margin-top: 24px;
+    margin-left: 9px;
+}
+.new_watch_collection{
+    width: 312px;
+    height: 322px;
+    margin-top: 418px;
+    margin-left: 24px;
+}
+.New_collection{
+    width: 294px;
+    height: 90px;
+    align-content: center;
+    font-size: 30px;
+    font-weight: 700;
+    color: #2E2E2E;
+}
+.new_watch_collection p{
+    font-size: 15px;
+    font-weight: 400;
+    color:#595959;
+    margin-top: 24px;
+
+}
+.PRice{
+    width: 61px;
+    height: 23px;
+    text-align: center;
+    margin-top: 24px;
+    font-size: 20px;
+    font-weight: 500;
+    color: #FFB568;
+}
+.add_to_cart{
+    width: 265px;
+    height: 58px;
+    margin-top: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Btn1{
+    width: 107px;
+    height: 50px;
+    background: #BFBFBF;
+    color: black;
+    border: none;
+
+}
+.Btn2{
+ width: 158px;
+ height: 58px;
+ background: #2B2B2B;
+ color: white;
+ border: none;
+}
+.main_2{
+    width: 360px;
+    height: 1434px;
+   
+}
+.featured{
+    width: 83px;
+    height: 35px;
+    margin-left:135px;
+    margin-top: 24px;
+    font-size: 16px;
+    font-weight: 500;
+}
+.watch_main_container{
+    width: 100%;
+    height: 1320px;
+    display: flex;
+    flex-direction: column;
+    
+}
+.collectionsss{
+    width:312px;
+    height: 440px;
+    margin-left: 24px;
+}
+.sale_badge{
+    width: 63px;
+    height: 31px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 24px;
+    background: #FFB568;
+    transform: rotate(-90deg);
+}
+.badge{
+    width: 33px;
+    height: 15px;
+    font-size: 13px;
+    font-weight: 500;
+    color: white;
+    text-align: center;
+}
+.watch_image_container{
+    width: 140px;
+    height: 214.55px;
+    margin-top: 32px;
+    margin-left: 86px;
+}
+.img_of_watch{
+    width: 100%;
+    height: 100%;
+}
+.desc_watch{
+    width: 109px;
+    height: 50px;
+    text-align: center;
+    margin-top: 16.45px;
+    margin-left: 101px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #2E2E2E;
+}
+.desc_watch h5{
+    color: #FFB568;
+    font-size: 16px;
+    margin-top:12px;
+    font-weight: 700;
+}
+.aDD_to_cart{
+    width: 146px;
+    height: 55px;
+    margin-top: 12px;
+    margin-left: 83px;
+}
+.aDD_to_cart button{
+    width: 100%;
+    height: 100%;
+    border: none;
+    background: #2B2B2B;
+    color: white;
+}
+.main_3{
+    width: 360px;
+    height: 737px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column-reverse;
+    align-items: center;
+   
+}
+.our_story_container{
+    width: 312px;
+    height: 297px;
+    
+
+}
+.yy{
+    width: 92px;
+    height: 35px;
+    text-align: center;  
+    align-content: center;
+    color: black;
+    font-weight: 500;
+
+}
+.yy h3{
+font-size: 15px; 
+font-weight:700;
+color: black;
+}
+
+.inspiration{
+    width: 242px;
+    height: 56px;
+    font-size: 24px;
+    font-weight: 500;
+    color: #2E2E2E;
+    margin-top: 20px;
+}
+.our_story_container p{
+    font-size: 15px;
+    font-weight: 400px;
+    color: #595959;
+    margin-top: 15px
+}
+.our_story_container button{
+    width:107px;
+    height: 50px;
+    background: #2B2B2B;
+    color: white;
+    border: none;
+    margin-top: 10px;
+}
+.Watch_design_container{
+    width: 298px;
+    height: 298px;
+    margin-left: 24px;
+}
+.Watch_design_container_1{
+    width: 250px;
+    height: 250px;
+    margin-top:45px;
+    position: relative;
+    background: #FFB568;
+}
+.Watch_design_container_2{
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    background: #2B2B2B;
+    top: 30px;
+    right:-30px;
+}
+.Watch_design_container_2 img{
+    width: 100%;
+    height: 100%;
+}
+.main_4{
+    width:360px;
+    height: 737px;
+    display: flex;
+}
+.products_display{
+    width:144px;
+    height:720px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 24px;
+
+}
+.dude{
+    display: none;
+}
+.product_01{
+    width: 100%;
+    height: 218px;
+}
+.product_01 img{
+width:75px;
+height: 121.69px;
+margin-top: 11px;
+margin-left: 35px;
+margin-right: 34px
+}
+.product_01_price{
+    width: 75px;
+    height: 39px;
+    margin-left: 34px;
+    margin-top:12px;
+    font-size: 12px;
+    font-weight: 500;
+    text-align: center;
+}
+.product_01_price h4{
+    font-size: 14px;
+    font-weight: 500;
+    color: #FFB568;
+    margin-top: 8px;
+}
+.product_01 button{
+    width: 28px;
+    height: 28px;
+    background: #2B2B2B;
+    margin-left:114px;
+    color: #ffffff;
+}
+.products_display_02{
+    width:144px;
+    height:650px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-left: 24px;
+
+}
+.main_5{
+    width: 360px;
+    height: 861px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    
+}
+.our_story_containers{
+    width: 312px;
+    height: 307px;
+    margin-left: 24px;
+}
+.our_story{
+    width: 48px;
+    height: 40px;
+    margin-top: 0;
+    margin-left: 0;
+    color: #FFB568;
+    
+}
+.our_story_containers p{
+    font-size: 15px;
+    font-weight: 400;
+    color: #595959;
+}
+.our_story_containers h5{
+    margin-top: 20px;
+}
+.leo{
+    width: 204px;
+    height: 60px;
+    margin-top: 32px;
+    display: flex;
+    align-items: center;
+
+}
+.leo_img{
+    width: 60px;
+    height: 60px;
+    
+}
+.leo_img img{
+    width: 100%;
+    height: 100%;
+}
+.leo_bio{
+    width: 128px;
+    height: 42px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.Watch_design_containers{
+    width: 298px;
+    height: 298px;
+    margin-left: 24px;
+    
+}
+.Watch_design_container_1-1{
+    width: 250px;
+    height: 250px;
+    margin-left: 45px;
+    position: relative;
+    background: #FFB568;
+}
+.Watch_design_container_2-2{
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    background: #2B2B2B;
+    top: 45px;
+    right: 45px;
+    
+}
+.Watch_design_container_2-2 img{
+    width: 100%;
+    height: 100%;
+}
+.main_6{
+    width:360px;
+    height: 534px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.pdt1{
+    display: none;
+}
+
+.new_arrival{
+    width: 122px;
+    height: 35px;
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 64px;
+    margin-left:119px ;
+    align-content: end;
+    text-align: center;
+    
+}
+.product_03{
+    width: 312px;
+    height: 371px;
+    margin-bottom: 30px;
+}
+.new{
+    width: 61px;
+    height: 31px;
+    margin-top:16px;
+    margin-left:235px;
+    text-align: center;
+    align-content: center;
+    background: #FFB568;
+    color: #ffffff;
+}
+.product_03 img{
+    width: 130px;
+    height: 224.57px;
+    margin-top: 32px;
+    margin-left:91px;
+}
+.ss{
+    width: 129px;
+    height: 50px;
+    margin-top: 16.43px;
+    margin-left:91px;
+    font-size: 16px;
+    font-weight: 700;
+}
+.ss h4{
+    font-size: 16px;
+    font-weight: 700;
+    color: #FFB568;
+}
+.main_7{
+    width: 360px;
+    height: 508px;
+}
+.mail_container{
+    width: 312px;
+    height: 428px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background: #FFB568;
+    margin-top: 48px;
+    margin-left: 24px;
+}
+.Subscribe{
+    width: 264px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-left: 24px;
+    
+}
+.Subscribe h1{
+    font-size: 24px;
+    font-weight: 500;
+    text-align: center;
+}
+.Subscribe p{
+    font-size: 15px;
+    font-weight: 400;
+    color: #595959;
+    text-align: center;
+}
+.send{
+    width:264px;
+    height: 128px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-left: 24px;
+    
+}
+.send input{
+    width: 100%;
+    height:58px;
+    border: none;
+    text-align: center;
+}
+.send button{
+    width: 100%;
+    height:58px;
+    border: none;
+    background: #2B2B2B;
+    color: white;
+}
+.main_8{
+    width: 360px;
+    height: 772px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+}
+.our_information{
+    width: 153px;
+    height: 121px;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 4%;
+    margin-left: 24px;
+}
+.ourinfo{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    
+}
+.ourinfo a{
+    font-size: 15px;
+    font-weight: 400;
+    text-decoration: none;
+    color: #595959;
+}
+.about_us{
+    width: 153px;
+    height: 121px;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 4%;
+    margin-left: 24px;
+}
+.aboutus{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    
+}
+.aboutus a{
+    font-size: 15px;
+    font-weight: 400;
+    text-decoration: none;
+    color: #595959;
+}
+.prdct{
+    width: 153px;
+    height: 121px;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 4%;
+    margin-left: 24px;
+}
+.social{
+    width: 92px;
+    height: 63px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 4%;
+    margin-right: 200px;
+}
+.social_icons{
+    width: 100%;
+    height: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+ }
+
+ 
